@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+}
+.cur-global-wrapper {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: #355dff;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Nexa-Bold";
+  .cur-global-block {
+    margin: 100px auto 0;
+    max-width: 500px;
+  }
+  .cur-title-element {
+    margin-bottom: 30px;
+  }
+  .cur-desc-element {
+    font-size: 20px;
+  }
+  .cur-title-block {
+    min-height: 200px;
+  }
+
+  .cur-border-element {
+    border: 1px solid #95a5ff;
+    width: 400px;
+    min-height: 270px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.column {
+      flex-direction: column;
+    }
+  }
+  .cur-login-wrapper {
+    margin: 25px;
+    width: 100%;
+    text-align: left;
+  }
+  .cur-login-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  button.cur-login-button {
+    background: white;
+    border: none;
+    color: red;
+    font-size: 16px;
+    padding: 16px;
+    width: 100%;
+    font-family: nexa-bold;
+    cursor: pointer;
+    opacity: 1;
+  }
+  button.cur-login-button.not-loaded {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  .cur-base-currency-wrapper {
+    width: 85%;
+    text-align: left;
+  }
+  .cur-base-currency-input-label {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .cur-base-currency-input-element {
+    margin-bottom: 40px;
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-family: nexa-bold;
+    border: none;
+    text-transform: uppercase;
+  }
+  .cur-base-currency-button {
+    border: none;
+    background: black;
+    color: white;
+    padding: 8px 41px;
+    font-family: nexa-bold;
+    cursor: pointer;
+    font-size: 16px;
+    &.disable {
+      pointer-events: none;
+      opacity: 0.5;
+    }
+  }
+  .cur-add-cur-wrapper {
+    width: 87%;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+  .cur-base-cur-text {
+    margin-bottom: 15px;
+  }
+  .cur-add-curr-label {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .cur-add-cur-input-wrapper {
+    margin-bottom: 15px;
+  }
+  input.add-cur-input {
+    border: none;
+    padding: 10px;
+    font-family: nexa-bold;
+    width: 75%;
+    text-transform: uppercase;
+  }
+  .add-cur-btn {
+    border: none;
+    color: white;
+    background: #355dff;
+    font-family: nexa-bold;
+    margin-left: 10px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .cur-list {
+    text-transform: uppercase;
+  }
+  .cur-refresh {
+    text-align: right;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  .logout {
+    border: none;
+    background: black;
+    color: white;
+    padding: 8px 41px;
+    font-family: nexa-bold;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .main-wrapper {
+    width: 100%;
+    margin: 20px;
+  }
+  .top-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .edit-base-text {
+    font-size: 10px;
+    cursor: pointer;
+  }
+  .body-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .cur-list-title {
+    margin-bottom: 10px;
+  }
+  .add-more {
+    font-size: 13px;
+    cursor: pointer;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+  .cur-list-section {
+    text-align: left;
+    font-size: 15px;
+  }
+}
